@@ -40,9 +40,11 @@
     width: 100%;
     height: 30px;
     margin: 5px 0 10px;
+    padding-left: 10px;
     outline: none;
     border: 1px solid lightgrey;
     border-radius: 5px;    
+    font-weight: 700;
 }
 
 input[type="button"] {
@@ -57,8 +59,9 @@ input[type="button"] {
 #fieldBuy {
     height: 93px;
     width: 100%;
-    resize: none;
-    background-color: rgb(243, 240, 237);
+    padding:10px;
+    font-weight: 700;
+    background-color: rgb(215, 212, 209);
     border-radius: 5px;
 }
 
@@ -91,6 +94,9 @@ input[type="button"] {
     height: 80px;
     border-top: 1px solid lightgrey;
     border-bottom: 1px solid lightgrey;
+    line-height: 80px;
+    padding-left: 10px;
+    font-size: 18px;
 }
 
 .modal-btn {
@@ -107,4 +113,8 @@ input[type="button"] {
     outline: none;
     border: none;
     border-radius: 5px;
+}
+
+.hide {
+    display: none;
 }

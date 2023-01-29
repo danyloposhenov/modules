@@ -33,15 +33,15 @@
             <form class="f1">
                 <h2 class="title">Кількість</h2>
                 <input type="text" id="amount">
-                <input type="radio" name="choose" id="checkBeer">
+                <input type="radio" name="choose" id="checkBeer" checked>
                 <span class="name">Пиво</span>
                 <input type="radio" name="choose" id="checkWine">
                 <span class="name">Вино</span>
-                <input type="radio" name="choose" id="checkWine">
+                <input type="radio" name="choose" id="checkPepsi">
                 <span class="name">Пепсі</span>
-                <input type="button" id="add" value="Додати">
-                <textarea id="fieldBuy" readonly disabled></textarea>
-                <input type="button" id="buy" value="Купити">
+                <input type="button" id="add" value="Додати" disabled>
+                <div id="fieldBuy"></div>
+                <input type="button" id="buy" value="Купити" disabled>
             </form>
         </div>
         <div class="block third"></div>
@@ -55,7 +55,9 @@
             <button id="close">Close</button>
         </div>
     </div>
-    <script src="script.js"></script>
+
+    <script src="shop.js" type="module"></script>
+    <script src="script.js" type="module"></script>
 </body>
 
 </html>
