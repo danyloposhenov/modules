@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="block first">
+            <h2 class="title">Баланс</h2>
+            <div class="box">
+                <p class="text" id="balance">1000 грн</p>
+            </div>
+            <h2 class="title">Пиво</h2>
+            <div class="box">
+                <p class="text" id="beer">100 шт.</p>
+            </div>
+            <h2 class="title">Вино</h2>
+            <div class="box">
+                <p class="text" id="wine">50 шт.</p>
+            </div>
+            <h2 class="title">Пепсі</h2>
+            <div class="box">
+                <p class="text" id="pepsi">80 шт.</p>
+            </div>
+        </div>
+        <div class="block second">
+            <form class="f1">
+                <h2 class="title">Кількість</h2>
+                <input type="text" id="amount">
+                <input type="radio" name="choose" id="checkBeer">
+                <span class="name">Пиво</span>
+                <input type="radio" name="choose" id="checkWine">
+                <span class="name">Вино</span>
+                <input type="radio" name="choose" id="checkWine">
+                <span class="name">Пепсі</span>
+                <input type="button" id="add" value="Додати">
+                <textarea id="fieldBuy" readonly disabled></textarea>
+                <input type="button" id="buy" value="Купити">
+            </form>
+        </div>
+        <div class="block third"></div>
+    </div>
+    <div class="modal">
+        <div class="escape">
+            <img src="image/times.svg" alt="">
+        </div>
+        <h2 class="modal-title"></h2>
+        <div class="modal-btn">
+            <button id="close">Close</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

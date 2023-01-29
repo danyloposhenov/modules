@@ -1,0 +1,110 @@
+@import url(reset.css);
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.block {
+    width: 300px;
+    height: 400px;
+    border: 1px solid rgb(167, 165, 165);
+    border-radius: 3px;
+    background-color: rgb(243, 239, 239);
+    padding: 30px;
+}
+
+.title {
+    font-weight: 700;
+}
+
+.box {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    background-color: rgb(230, 228, 226);
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin: 5px 0 20px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#amount {
+    width: 100%;
+    height: 30px;
+    margin: 5px 0 10px;
+    outline: none;
+    border: 1px solid lightgrey;
+    border-radius: 5px;    
+}
+
+input[type="button"] {
+    width: 100px;
+    height: 30px;
+    margin: 10px 0;
+    background-color: rgb(230, 228, 226);
+    border: 1px solid lightgrey;
+    border-radius: 5px;  
+}
+
+#fieldBuy {
+    height: 93px;
+    width: 100%;
+    resize: none;
+    background-color: rgb(243, 240, 237);
+    border-radius: 5px;
+}
+
+.modal {
+    position: absolute;
+    top: 50px;
+    left: 30%;
+    width: 600px;
+    height: 200px;
+    padding: 10px 10px 0px ;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px ;
+}
+
+.escape {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.escape img {
+    width: 30px;
+    height: 30px;
+}
+
+.modal-title {
+    width: 100%;
+    height: 80px;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+
+.modal-btn {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#close {
+    width: 70px;
+    height: 33px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
