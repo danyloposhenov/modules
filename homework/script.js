@@ -87,6 +87,7 @@ sel('#buy').addEventListener('click', function () {
     sel('#buy').disabled = true;
 })
 
+
 sel('#close').addEventListener('click', function () {
     sel('.modal').classList.add('hide');
     sel('#amount').value = '';
